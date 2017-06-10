@@ -1,7 +1,11 @@
 body {
   margin: 0px;
   padding: 0px;
+<<<<<<< HEAD
 
+=======
+  background: gray;
+>>>>>>> origin/gh-pages
 }
 
 #headerDiv {
@@ -17,7 +21,11 @@ body {
 
 }
 
+<<<<<<< HEAD
 /*#myname {
+=======
+#myname {
+>>>>>>> origin/gh-pages
   height: 25vh;
   width: 100vw;
   background-image: url(./images/name.png);
@@ -26,6 +34,7 @@ body {
   position: absolute;
   top: 50%;
   margin-top: -50px;
+<<<<<<< HEAD
 }*/
 
 .myname{
@@ -36,6 +45,8 @@ body {
   position: relative;
   top: 20vh;
 
+=======
+>>>>>>> origin/gh-pages
 }
 
 #infoDiv {
