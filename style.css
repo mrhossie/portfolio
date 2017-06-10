@@ -17,7 +17,7 @@ body {
 
 #myname {
   height: 126px;
-  width: auto;
+  width: 100%;
   background-image: url(./images/name.png);
   background-position: center;
   background-repeat: no-repeat;
