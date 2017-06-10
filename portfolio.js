@@ -3,21 +3,28 @@ $(window).scroll(function() {
   var wScroll = $(this).scrollTop();
   //console.log(wScroll);
   if (wScroll < 550) {
-    $('#myName').css({
-      'transform': 'translate(0px, ' + wScroll / 2 + 'px)'
+    $('.myName').css({
+      'transform': 'translate(0px, ' + wScroll / 1.5 + 'px)'
     });
   }
 
-  // if (wScroll > $('.coding').offset().top - ($(window).height() / 5 )){
-  //   $('.coding').addClass('is-showing');
-  // }
-  if (wScroll > $('.talent').offset().top - ($(window).height() / 6 )){
+  if (wScroll > $('#talents').offset().top - ($(window).height() / 4 )){
 
-        $(".talent").addClass('is-showing');
+        //$(".talents").addClass('is-showing');
+        $('.talents').each(function(i){
+          setTimeout(function(){
+            $('.talents').eq(i).addClass('is-showing');
+          }, 750 *(i));
+
+
+        });
+
+
   }
-  if (wScroll <= $('.talent').offset().top - ($(window).height() / 6 )){
+  if (wScroll < $('#talents').offset().top - ($(window).height() / 6 )){
 
-        $(".talent").removeClass('is-showing');
+        $('.talents').removeClass('is-showing');
+
   }
 
 });
