@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#headerDiv {
+
+  position: relative;
+  height: 100vh;
+  background: url(./images/header-back.jpg) top center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  overflow:hidden;
+}
+
+#myname {
+  height: 126px;
+  width: 100%;
+  background-image: url(./images/name.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -60;
+}
+
+#infoDiv {
+  height: 1900px;
+}
+
+#navbar{
+    z-index: 1;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+.shadow{
+  box-shadow: 5px 5px 2px gray;
+}
+
+#gaming{
+  padding:10;
+  margin:0;
+}
+
+
+.talent{
+  border: 1px solid red;
+  margin: 0px;
+  padding: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25vh;
+  width: auto;
+  opacity: 0;
+  position: relative;
+  transform: translateX(-25px);
+  transition: all .5s cubic-bezier(.22,.91,.64,1.68);
+  margin-bottom:10px;
+
+}
+
+.is-showing{
+  opacity: 1;
+  transform: translateX(25%);
+}
