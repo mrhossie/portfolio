@@ -1,5 +1,39 @@
-body {
-  margin: 0px;
-  padding: 0px;
+
+.emptyStuff{
+  height: 900px;
+}
+
+body{
+    background: url("images/lander-background.jpg") top center;
+    background-size:cover;
+}
+.landing{
+  height: 100vh;
+}
+
+.landing-title{
+  width: 25%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 25%;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  
+}
+
+.landing-title p{
+  font-size: 10px;
+  text-align: center;
+}
+
+.landing-services{
+
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  width: 20%;
+  text-align: center;
 
 }
