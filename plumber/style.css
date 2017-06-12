@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 body {
   margin: 0px;
   padding: 0px;
-=======
+}
 
 .emptyStuff{
   height: 900px;
@@ -12,6 +12,7 @@ body{
     background: url("images/lander-background.jpg") top center;
     background-size:cover;
 }
+
 .landing{
   height: 100vh;
 }
@@ -40,6 +41,6 @@ body{
   background-color: black;
   width: 20%;
   text-align: center;
->>>>>>> origin/gh-pages
+
 
 }
